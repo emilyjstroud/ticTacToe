@@ -1,13 +1,14 @@
-import { useState } from "react";
+// import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
+import AiPlayer from "./components/AiPlayer";
 // import { useNavigate } from "react";
-import TicTacToeBoard from "./components/Board";
-import Console from "./components/Console";
-import ControlPanel from "./components/ControlPanel";
+// import TicTacToeBoard from "./components/Board";
+// import Console from "./components/Console";
+// import ControlPanel from "./components/ControlPanel";
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
@@ -21,17 +22,19 @@ function App() {
       </div> */}
       <h1>Welcome!</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </button> */}
 
         {/* <button onClick={useNavigate()}></button> */}
 
-        <TicTacToeBoard />
+        {/* <TicTacToeBoard />
 
-        <Console />
+        <Console /> */}
 
-        <ControlPanel />
+        {/* <ControlPanel /> */}
+
+        <AiPlayer />
 
         {/* <p>
           Edit <code>src/App.jsx</code> and save to test HMR
