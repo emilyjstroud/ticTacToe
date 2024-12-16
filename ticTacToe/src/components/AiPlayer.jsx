@@ -105,7 +105,6 @@ const AiPlayer = () => {
   return (
     <div>
       <div>
-        {/* <button onClick={resetGame}>Reset Game</button> */}
         <select
           value={playerSymbol}
           onChange={(e) => setPlayerSymbol(e.target.value)}
